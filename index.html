@@ -1,0 +1,457 @@
+<html>
+    <head>
+        <title>TCS Ortho Repository</title>
+        <link rel="icon" type="image/x-icon" href="favi.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <body>
+            <div>
+                <h1>TCS Hip OrthoPlasty Repository</h1>
+               
+                <div id="multi-step-form-container">
+                    <!-- Form Steps / Progress Bar -->
+                    <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+                        <!-- Step 1 -->
+                        <li class="form-stepper-active text-center form-stepper-list" step="1">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle">
+                                    <span>1</span>
+                                </span>
+                                <div class="label">Indications: Primary</div>
+                            </a>
+                        </li>
+                        <!-- Step 2 -->
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>2</span>
+                                </span>
+                                <div class="label text-muted">Indications: Revision</div>
+                            </a>
+                        </li>
+                        <!-- Step 3 -->
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>3</span>
+                                </span>
+                                <div class="label text-muted">Optimal Method</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="4">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>4</span>
+                                </span>
+                                <div class="label text-muted">Implant Company</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="5">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>5</span>
+                                </span>
+                                <div class="label text-muted">Acetabular Component</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="6">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>6</span>
+                                </span>
+                                <div class="label text-muted">Bone Grafting</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="7">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>7</span>
+                                </span>
+                                <div class="label text-muted">Acetabular Screw</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="8">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>8</span>
+                                </span>
+                                <div class="label text-muted">Bone Cement</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="9">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>9</span>
+                                </span>
+                                <div class="label text-muted">Femoral Head</div>
+                            </a>
+                        </li>
+                    
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="10">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>10</span>
+                                </span>
+                                <div class="label text-muted">Cement Restrictor</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="11">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>11</span>
+                                </span>
+                                <div class="label text-muted">Femoral Stem</div>
+                            </a>
+                        </li>
+                    
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="12">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>12</span>
+                                </span>
+                                <div class="label text-muted">Femoral Cementing</div>
+                            </a>
+                        </li>
+                        
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="13">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>13</span>
+                                </span>
+                                <div class="label text-muted">Centraliser</div>
+                            </a>
+                        </li>
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="14">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>14</span>
+                                </span>
+                                <div class="label text-muted">Computer Assisted</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Step Wise Form Content -->
+                    <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
+                        <!-- Step 1 Content -->
+                        <section id="step-1" class="form-step">
+                            <h2 class="font-normal">Indications: Primary</h2>
+                            <!-- Step 1 input fields -->
+                            <div class="mt-3">
+                                <fieldset>    
+                                    <input type="checkbox" id="p1" name="p1" value="AVN">
+                                    <label for="p1">AVN</label><br>
+                                    <input type="checkbox" id="p2" name="p2" value="AS">
+                                    <label for="p2">AS</label><br>
+                                    <input type="checkbox" id="p3" name="p3" value="RA">
+                                    <label for="p3">RA</label><br>
+                                    <input type="checkbox" id="p4" name="p4" value="AF">
+                                    <label for="p4">Acetabular Fracture</label><br>
+                                    <input type="checkbox" id="p5" name="p5" value="FN">
+                                    <label for="p5">Femur Neck/Head Fracture</label><br>
+                                    <input type="checkbox" id="p6" name="p6" value="Dyslapsia">
+                                    <label for="p6">Dyslapsia</label><br>
+                                    <input type="checkbox" id="p7" name="p7" value="Tumor">
+                                    <label for="p7">Tumor</label><br>
+                                    <input type="checkbox" id="p8" name="p8" value="Other">
+                                    <label for="p8">Other</label><br>
+                                    <label>If Other:</label>
+                                    <input type="text" placeholder="Enter the Indication"/>
+                              </fieldset>
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="2">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-2" class="form-step d-none">
+                            <h2 class="font-normal">Indications: Revision</h2>
+                            <!-- Step 2 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="r1" name="r1" value="Loosening">
+                                    <label for="p1">Loosening</label><br>
+                                    <input type="checkbox" id="r2" name="r2" value="Lysis">
+                                    <label for="p2">Lysis</label><br>
+                                    <input type="checkbox" id="r3" name="r3" value="Dislocation">
+                                    <label for="p3">Dislocation</label><br>
+                                    <input type="checkbox" id="r4" name="r4" value="Infection">
+                                    <label for="p4">Infection</label><br>
+                                    <input type="checkbox" id="r5" name="r5" value="IF">
+                                    <label for="p5">Implant Failure</label><br>
+                                    <input type="checkbox" id="r6" name="r6" value="Fracture">
+                                    <label for="p6">Fracture</label><br>
+                                    <input type="checkbox" id="r7" name="r7" value="Other">
+                                    <label for="p7">Other</label><br>
+                                    <label>If Other:</label>
+                                    <input type="text" placeholder="Enter the Indication"/><br>
+                                </fieldset>
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-3" class="form-step d-none">
+                            <h2 class="font-normal">Optimal Method</h2>
+                            <!-- Step 3 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="om1" name="om1" value="Cemented">
+                                    <label for="O1">Cemented</label><br>
+                                    <input type="checkbox" id="om2" name="om2" value="Uncemented">
+                                    <label for="O2">Uncemented</label><br>
+                                    <input type="checkbox" id="om3" name="om3" value="Resurfacing">
+                                    <label for="O3">Resurfacing</label><br>
+                                    <input type="checkbox" id="om4" name="om4" value="Bone Grafting">
+                                    <label for="O4">Bone Grafting</label><br>
+                                    <input type="checkbox" id="om5" name="om5" value="Augment">
+                                    <label for="O5">Augment</label><br>
+                                    <input type="checkbox" id="om6" name="om6" value="Hybrid">
+                                    <label for="O6">Hybrid</label><br>
+                                    <input type="checkbox" id="om7" name="om7" value="Other">
+                                    <label for="O7">Other</label><br>  
+                              </fieldset>
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="4">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-4" class="form-step d-none">
+                            <h2 class="font-normal">Implant Company</h2>
+                            <!-- Step 4 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="ic1" name="ic1" value="SN">
+                                    <label for="IC1">Smith & Nephew</label>
+                                    <input type="checkbox" id="ic2" name="ic2" value="Depuy">
+                                    <label for="IC2">Depuy</label>
+                                    <input type="checkbox" id="ic3" name="ic3" value="Biomet">
+                                    <label for="IC3">Biomet</label>
+                                    <input type="checkbox" id="ic4" name="ic4" value="Stryker">
+                                    <label for="IC4">Stryker</label>
+                                    <input type="checkbox" id="ic5" name="ic5" value="DJO">
+                                    <label for="IC5">DJO</label>
+                                    <input type="checkbox" id="ic6" name="ic6" value="Other">          
+                          </fieldset>
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="3">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="5">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-5" class="form-step d-none">
+                            <h2 class="font-normal">Acetabular Component</h2>
+                            <!-- Step 5 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="ac1" name="ac1" value="No">
+                                    <label for="IC1">No</label>
+                                    <input type="checkbox" id="ac2" name="ac2" value="Yes">
+                                    <label for="IC2">Yes</label><br>
+                                    (If Yes) <br>
+                                    <label>Cup Size:</label>
+                                    <input type="text" placeholder="Enter Cup Size"/>
+                                    <label>Liner Size:</label>
+                                    <input type="text" placeholder="Enter Liner Size"/>
+                                    <label>Prothesis Name:</label>
+                                    <input type="text" placeholder="Enter Prothesis Name"/><br>
+                                </fieldset>
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="4">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="6">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-6" class="form-step d-none">
+                            <h2 class="font-normal">Bone Grafting</h2>
+                            <!-- Step 6 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="bg1" name="bg1" value="No">
+                                    <label for="BG1">No</label>
+                                    <input type="checkbox" id="bg2" name="bg2" value="Yes">
+                                    <label for="BG2">Yes</label>
+                                    <input type="checkbox" id="bg3" name="bg3" value="Impaction">
+                                    <label for="BG3">Impaction</label> <br>
+                                </fieldset>  
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="5">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="7">Next</button>
+                            </div>
+                        </section>
+
+
+                        <section id="step-7" class="form-step d-none">
+                            <h2 class="font-normal">Acetabular Screw</h2>
+                            <!-- Step 7 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="as1" name="as1" value="None">
+                                    <label for="AS1">None</label>
+                                    <input type="checkbox" id="as2" name="as2" value="1">
+                                    <label for="AS2">1</label>
+                                    <input type="checkbox" id="as3" name="as3" value="2">
+                                    <label for="AS3">2</label>
+                                    <input type="checkbox" id="as4" name="as4" value="3">
+                                    <label for="AS4">3</label>
+                                    <input type="checkbox" id="as5" name="as5" value="4">
+                                    <label for="AS5">&gt4</label> <br>     
+                                </fieldset>                 
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="6">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="8">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-8" class="form-step d-none">
+                            <h2 class="font-normal">Bone Cement</h2>
+                            <!-- Step 8 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="ac1" name="ac1" value="No">
+                                    <label for="IC1">No</label>
+                                    <input type="checkbox" id="ac2" name="ac2" value="Yes">
+                                    <label for="IC2">Yes</label><br>
+                                    (If Yes) <br>
+                                    <label>Name:</label>
+                                    <input type="text" placeholder="Enter Name"/><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="7">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="9">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-9" class="form-step d-none">
+                            <h2 class="font-normal">Femoral Head</h2>
+                            <!-- Step 9 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="fh1" name="fh1" value="Bipolar">
+                                    <label for="FH1">Bipolar</label>
+                                    <input type="checkbox" id="fh2" name="fh2" value="Hemiarthroplasty">
+                                    <label for="FH2">Hemiarthroplasty</label>
+                                    <input type="checkbox" id="fh3" name="fh3" value="Duel Mobility">
+                                    <label for="FH3">Duel Mobility</label> <br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="8">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="10">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-10" class="form-step d-none">
+                            <h2 class="font-normal">Cement Restrictor</h2>
+                            <!-- Step 10 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="cr1" name="cr1" value="No">
+                                    <label for="CR1">No</label>
+                                    <input type="checkbox" id="cr2" name="cr2" value="Yes">
+                                    <label for="CR2">Yes</label><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="9">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="11">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-11" class="form-step d-none">
+                            <h2 class="font-normal">Femoral Stem</h2>
+                            <!-- Step 11 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <label>Stem Size:</label>
+                                    <input type="text" placeholder="Enter Stem Size"/>
+                                    <label>Prothesis Name:</label>
+                                    <input type="text" placeholder="Enter Prothesis Name"/><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="10">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="12">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-12" class="form-step d-none">
+                            <h2 class="font-normal">Femoral Cementing</h2>
+                            <!-- Step 12 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="fst1" name="fst1" value="None">
+                                    <label for="FST1">None</label>
+                                    <input type="checkbox" id="fst2" name="fst2" value="HP">
+                                    <label for="FST2">Hand Picking</label>
+                                    <input type="checkbox" id="fst3" name="fst3" value="Gun">
+                                    <label for="FST3">Gun</label>
+                                    <input type="checkbox" id="fst4" name="fst4" value="VM">
+                                    <label for="FST4">Vaccum Mixing</label> <br>
+                                    <label>Cement Name:</label>
+                                    <input type="text" placeholder="Enter Cement Name"/><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="11">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="13">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-13" class="form-step d-none">
+                            <h2 class="font-normal">Centraliser</h2>
+                            <!-- Step 13 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="cen1" name="cen1" value="No">
+                                    <label for="CEN1">No</label>
+                                    <input type="checkbox" id="cen2" name="cen2" value="Yes">
+                                    <label for="CEN2">Yes</label><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="12">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="14">Next</button>
+                            </div>
+                        </section>
+
+                        <section id="step-14" class="form-step d-none">
+                            <h2 class="font-normal">Computer Assisted/Navigation</h2>
+                            <!-- Step 14 input fields -->
+                            <div class="mt-3">
+                                <fieldset>
+                                    <input type="checkbox" id="ca/n" name="ca/n" value="No">
+                                    <label for="CA/N">No</label>
+                                    <input type="checkbox" id="ca/n" name="ca/n" value="Yes">
+                                    <label for="CA/N">Yes</label><br>
+                                    <label>System Name:</label>
+                                    <input type="text" placeholder="Enter System Name"/><br>
+                                </fieldset>                
+                            </div>
+                            <div class="mt-3">
+                                <button class="button btn-navigate-form-step" type="button" step_number="13">Prev</button>
+                                <button class="button submit-btn" type="submit">Submit</button>
+                            </div>
+                        </section>
+                    </form>
+                </div>
+            </div>
+            <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>
